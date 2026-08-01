@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of /.well-known/* on Personetics public hosts
+host: https://personetics.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+other_hosts:
+- host: https://docs.personetics.com
+  note: 307 redirect to https://docs-login.personetics.com/ — login-gated Documentation Hub; no public /.well-known or /llms.txt
+- host: https://api.personetics.com
+  note: DNS resolves but returns 502 from the public internet — per-institution deployment, not a public API surface
+notes: No public /.well-known discovery documents were found. Absence is valid, expected
+  data for a provider that delivers enterprise banking software integrated into each
+  bank's stack rather than a public self-serve developer API. No WellKnown scoring
+  pointer emitted because no document returned HTTP 200.

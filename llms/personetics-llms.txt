@@ -1,0 +1,25 @@
+# Personetics
+
+> Personetics is a Cognitive Banking platform that helps banks and financial institutions deliver AI-driven, financial-data-personalized customer engagement and money management. It analyzes customer transaction data in real time to surface personalized insights, proactive financial guidance, automated savings and cash-flow programs, and self-driving finance experiences embedded inside a bank's own mobile and web channels. Personetics serves hundreds of banks across roughly 30 global markets, reaching an estimated 150 million banking customers. The platform is delivered as enterprise software integrated into a bank's digital banking stack rather than as a public self-serve developer API.
+
+## Company
+
+- [Website](https://personetics.com): Company home — Cognitive Banking platform for banks and financial institutions.
+- [About](https://personetics.com/about): Company overview and background.
+- [Partners](https://personetics.com/partners): Partner and integration ecosystem.
+- [Request a Demo](https://personetics.com/request-a-demo): Enterprise engagement / onboarding entry point.
+
+## Docs
+
+- [Documentation Hub](https://docs.personetics.com): Personetics Documentation Hub for products and services (gated; no public machine-readable API spec discovered).
+
+## Resources
+
+- [Blog](https://personetics.com/blog): Articles on cognitive banking, AI in financial services, and money management.
+- [Resources](https://personetics.com/resources): Reports, guides, and case studies.
+- [Contact](https://personetics.com/contact): Support and contact.
+- [Privacy Policy](https://personetics.com/privacy-policy): Privacy policy.
+
+## Notes
+
+- No public OpenAPI, AsyncAPI, well-known discovery documents, SDK packages, or hosted MCP server were found on public Personetics surfaces as of 2026-07-20. `api.personetics.com` exists but is not publicly reachable (per-institution deployment). This llms.txt was generated from the API Evangelist catalog record, not fetched verbatim from a provider-published /llms.txt.
