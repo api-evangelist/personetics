@@ -41,7 +41,7 @@ accessModel:
 image: https://personetics.com/wp-content/uploads/2025/03/Personetics-The-Cognitive-Banking-Company.jpg
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Banking
@@ -67,6 +67,10 @@ tags_raw:
 - Financial-Services
 apis: []
 common:
+- url: https://personetics.com/blog/
+  type: Blog
+- url: https://personetics.com/blog/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/personetics-domain-security.yml
 - type: Website
