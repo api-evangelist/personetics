@@ -1,16 +1,34 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/personetics/integrations
 - https://n8n.io/integrations/personetics/
 - https://composio.dev/toolkits/personetics
 - https://monid.ai/tools/personetics
 checked:
+- https://azuremarketplace.microsoft.com/
 - https://composio.dev/toolkits/personetics
 - https://monid.ai/tools/personetics
 - https://n8n.io/integrations/personetics/
 - https://zapier.com/apps/personetics/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=Personetics%20Technologies%20LTD.
+  listing_count: 3
+  apps:
+  - Personetics Enrich SaaS
+  - Personetics Engage SaaS
+  - Personetics' Engagement Platform
+  seller_name: Personetics Technologies LTD.
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
 templates: []
