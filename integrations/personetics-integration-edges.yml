@@ -25,9 +25,9 @@ edges:
   evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=Personetics%20Technologies%20LTD.
   listing_count: 3
   apps:
-  - Personetics Enrich SaaS
   - Personetics Engage SaaS
   - Personetics' Engagement Platform
+  - Personetics Enrich SaaS
   seller_name: Personetics Technologies LTD.
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
